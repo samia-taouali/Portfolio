@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+html    {
+    position: relative;
+}
+body {
+
+    background-image:  linear-gradient(180deg, rgba(58,165,164,1) 0%, rgba(122,229,228,1) 100%);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+   
+   
+
+
+    /* background: rgb(58,165,164);
+    background: linear-gradient(180deg, rgba(58,165,164,1) 0%, rgba(122,229,228,1) 100%);
+    background-repeat: no-repeat; */
+    /* background-image:url(http://127.0.0.1:5500/images/img1.jpg);
+    opacity: 30%; */
+}
+.background{
+    background-image: url(http://127.0.0.1:5500/images/img1.jpg);
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+    background-position: 70% 35%;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    opacity:    20%;
+}
+
+.section1
+ {
+    background-color: #ffffff;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    margin-left: 31px;
+    margin-right: 33px;
+    border-radius: 4px;
+   
+    
+    
+}
+
+   .main{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+
+   }
+
+#title1{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+   font-weight: 400;
+   font-size: 50px;
+   margin-bottom: 78px;
+
+}
+#title2{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 10P;
+    margin-top: -66px;
+margin-bottom: 72px;
+
+}
+#AB{
+   padding-top: 50px;
+   font-family: 'Oswald', sans-serif;
+   font-weight: 400;
+
+}
+.TextBio{
+    margin: 0em 19em ;
+}
+
+#IMG1{
+    width: 278px;
+    float: left;
+    padding: 0px;
+   
+}
+#paragraph1{
+    font-family: 'Lato', sans-serif;
+    color:#5B6580 ;
+    
+}
+#paragraph2{
+    font-family: 'Lato', sans-serif;
+    color:#5B6580 ;
+}
+.section2{ 
+    background-color: #ffffff;
+    margin: 2em 2em 0em 2em;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    border-radius: 4px;
+
+    }
+/* .section2 img{
+    display: inline-block;
+    width: 25%;
+    margin: 0 1% 0 1%;
+} */
+#titleProject{
+    margin-left: 2em;
+    text-align: left;
+}
+  .imageDiv
+{
+    display: flex;
+   justify-content: space-evenly;
+}
+    .ameliaApp{
+        margin-left: 3em;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .ameliaApp img
+    {
+         width: 90%;
+    }
+    .Portland{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Portland img
+    {
+         width: 90%;
+    }
+    .DenzForNilon{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .DenzForNilon img
+    {
+         width: 90%;
+ 
+    
+    }
+    .titlep{
+        padding-top: 20px;
+         
+    }
+    .titled{
+        
+    }
+    .section3{
+        background-color: #ffffff;
+        margin: 32px;
+        padding: 47px;
+        border-radius: 4px;
+    }
+    .section4{
+        
+        background-color: #ffffff;
+        margin: 0em 2em 0em 2em;
+        padding: 47px;
+        border-radius: 4px;
+    }
+    .design {
+        float: left;
+        width: 33.3%;
+    }
+    .section5{
+        background-color: #ffffff;
+        margin: 2em 2em 0em 2em;
+        padding: 47px;
+        border-radius: 4px;
+    }
+    .langue{
+        float: left;
+        width: 33.3%;
+    }
+    .light{
+        color: gray;
+    }
+    .section6{
+        background-color: #ffffff;
+        margin: 2em 2em 0em 2em;
+        padding: 47px;
+        border-radius: 4px;
+    }
+    .socialnetwork{
+        float: left;
+        width: 33.3%;
+        align-content:flex-start;
+        position: relative;
+    }
+.socialnetwork img{
+    width: 20px;
+}
+.socialnetwork span{
+    position: absolute;
+    top: 2px;
+}
+.section7{
+    background-color: #ffffff;
+    margin: 2em 2em 0em 2em;
+    padding: 47px;
+    padding-left: 47px;
+    border-radius: 4px;
+}
+#contact{
+    font-size: 25px;
+    font-family: 'lato', sans-serif;
+
+}
+.nav{
+    width: 90%;
+    height: 60%;
+    margin-top:10px ;
+    padding: 20px;
+    border-radius: 4px;
+    border-style: hidden;
+    background-color:rgba(238,238,238,255);
+}
+.botton{
+
+    border-radius: 70px;
+    background-color: black;
+    color: white;
+    padding:10px;
+    margin-top: 20px;
+}
+.end{
+   
+    text-align: center;
+    color: #FFFFFF;
+    font-size:small ;
+    position: relative;
+    top: 0em; 
+    bottom: 0em;
+    margin: 5%; ;
+}
